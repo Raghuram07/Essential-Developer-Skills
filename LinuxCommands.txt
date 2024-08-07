@@ -12,5 +12,4 @@ rmdir directoryname
 touch
 echo
 cat
-mkdir
-rmdir
+grep
