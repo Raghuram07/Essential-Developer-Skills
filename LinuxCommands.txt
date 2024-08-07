@@ -1,0 +1,16 @@
+ls 
+ls -a
+ls -l
+
+#for directories
+
+mkdir directoryname
+rmdir directoryname
+
+#for files
+
+touch
+echo
+cat
+mkdir
+rmdir
