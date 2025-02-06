@@ -169,5 +169,32 @@
 
 ---
 
-This document provides a structured guide to essential developer skills. Let me know if you want additional sections! 😊
+## 📜 JavaScript Methods
+
+### 📌 String Methods
+- `toUpperCase()` → Convert string to uppercase
+- `toLowerCase()` → Convert string to lowercase
+- `trim()` → Remove whitespace from both ends
+- `split()` → Split a string into an array
+- `replace()` → Replace part of a string
+
+### 🔢 Array Methods
+- `map()` → Create a new array by applying a function
+- `filter()` → Filter elements based on a condition
+- `reduce()` → Reduce array elements to a single value
+- `forEach()` → Loop through each element in an array
+- `includes()` → Check if an array contains a specific value
+
+### 🔄 Object Methods
+- `keys()` → Get all keys of an object
+- `values()` → Get all values of an object
+- `entries()` → Get key-value pairs of an object
+- `assign()` → Copy properties from one object to another
+
+### ⏳ Asynchronous Methods
+- `setTimeout()` → Execute a function after a delay
+- `setInterval()` → Execute a function repeatedly after intervals
+- `fetch()` → Make an HTTP request
+- `async/await` → Handle asynchronous operations
+
 
