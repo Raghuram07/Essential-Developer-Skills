@@ -161,40 +161,30 @@
 
 ---
 
-## 🚀 Performance Optimization
-- Caching strategies (Redis, Memcached) 🔄
-- Database indexing 📌
-- Lazy loading for frontend optimization 🖼️
-- Code profiling tools (Flamegraph, Perf) 🔥
+## 🚀 Design Patterns
+### 🔄 Creational Patterns
+- Singleton → Ensures a class has only one instance
+- Factory Method → Creates objects without specifying the exact class
+- Builder → Constructs complex objects step-by-step
+
+### 🔁 Structural Patterns
+- Adapter → Bridges incompatible interfaces
+- Decorator → Adds functionalities to objects dynamically
+- Proxy → Controls access to objects
+
+### 🔄 Behavioral Patterns
+- Observer → Notifies dependent objects of state changes
+- Strategy → Selects an algorithm at runtime
+- Command → Encapsulates commands as objects
 
 ---
 
-## 📜 JavaScript Methods
+## 🎯 SOLID Principles
+- **S** → Single Responsibility Principle (SRP) → A class should have one job
+- **O** → Open/Closed Principle (OCP) → Code should be open for extension but closed for modification
+- **L** → Liskov Substitution Principle (LSP) → Derived classes must be substitutable for base classes
+- **I** → Interface Segregation Principle (ISP) → Clients should not be forced to depend on interfaces they don’t use
+- **D** → Dependency Inversion Principle (DIP) → High-level modules should not depend on low-level modules; both should depend on abstractions
 
-### 📌 String Methods
-- `toUpperCase()` → Convert string to uppercase
-- `toLowerCase()` → Convert string to lowercase
-- `trim()` → Remove whitespace from both ends
-- `split()` → Split a string into an array
-- `replace()` → Replace part of a string
-
-### 🔢 Array Methods
-- `map()` → Create a new array by applying a function
-- `filter()` → Filter elements based on a condition
-- `reduce()` → Reduce array elements to a single value
-- `forEach()` → Loop through each element in an array
-- `includes()` → Check if an array contains a specific value
-
-### 🔄 Object Methods
-- `keys()` → Get all keys of an object
-- `values()` → Get all values of an object
-- `entries()` → Get key-value pairs of an object
-- `assign()` → Copy properties from one object to another
-
-### ⏳ Asynchronous Methods
-- `setTimeout()` → Execute a function after a delay
-- `setInterval()` → Execute a function repeatedly after intervals
-- `fetch()` → Make an HTTP request
-- `async/await` → Handle asynchronous operations
 
 
