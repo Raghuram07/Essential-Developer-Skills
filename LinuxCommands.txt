@@ -1,6 +1,7 @@
 ls 
-ls -a
-ls -l
+ls -a   #shows all files incluing hidden
+ls -l   #to display long listing of files and directories, permissions owner group date etc.,
+ls -la  #including hidden files it will show
 
 #for directories
 
